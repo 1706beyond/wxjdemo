@@ -71,7 +71,38 @@
 	         	<li>Authentic</li>
 	         </ul>
 			</div>
-			
+			<div id="option3">
+			  <ul>
+			  	<li id="eastId"><p>东部球队</p></li>
+			  	<li id="westId"><p>西部球队</p></li>
+			  	<li>迈阿密热火</li>
+			  	<li>圣安东尼奥马刺</li>
+			  	<li>奥兰多魔术</li>
+			  	<li>孟菲斯灰熊</li>
+			  	<li>亚特兰大老鹰</li>
+			  	<li>达拉斯小牛</li>
+			  	<li>华盛顿奇才</li>
+			  	<li>休斯顿火箭</li>
+			  	<li>夏洛特黄蜂</li>
+			  	<li>新奥尔良鹈鹕</li>
+			  	<li>底特律活塞</li>
+			  	<li>明尼苏达森林狼</li>
+			  	<li>印第安纳步行者</li>
+			  	<li>丹佛掘金</li>
+			  	<li>克利夫兰骑士</li>
+			  	<li>犹他爵士</li>
+			  	<li>芝加哥公牛</li>
+			  	<li>波特兰开拓者</li>
+			  	<li>密尔沃基雄鹿</li>
+			  	<li>奥克拉荷马城雷霆</li>
+			  	<li>波士顿凯尔特人</li>
+			  	<li>萨克拉门托国王</li>
+			  	<li>费城76人</li>
+			  	<li>菲尼克斯太阳</li>
+			  	<li>纽约尼克斯</li>
+			  	<li>洛杉矶湖人</li>
+			  </ul>
+			</div>
 	</div>
 	<!--slider-->
 	<div id="slider-wrap">
@@ -358,6 +389,7 @@
 		lis[i].innerHTML="<img src='img/ban"+(i+1)+".jpg'/>"
 	}
 	
+	//下拉框
 	$("#mId1").onmouseover=function(){
 
 		$("#option1").style="display:block;"
@@ -373,6 +405,16 @@
 	$("#mId2").onmouseout=function(){
 		$("#option2").style="display:none;"
 	};
+	
+	$("#menu1").onmouseover=function(){
+
+		$("#option3").style="display:block;"
+	};
+	$("#menu1").onmouseout=function(){
+		$("#option3").style="display:none;"
+	};
+	
+	
 	
 	
 	
